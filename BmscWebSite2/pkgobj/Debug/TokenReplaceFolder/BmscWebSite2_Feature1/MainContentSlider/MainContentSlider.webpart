@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2.MainContentSlider.MainContentSlider, BmscWebSite2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fffcb4f53f0565b7" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Rotador de Imágenes</property>
+        <property name="Description" type="string">Elemento web rotador de imágenes principales.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

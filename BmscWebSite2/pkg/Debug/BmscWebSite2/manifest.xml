@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e0c244a1-8d7b-42e3-ac37-f3f291bdfe00" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BmscWebSite2.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BmscWebSite2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fffcb4f53f0565b7" Namespace="BmscWebSite2.MainContentSlider" TypeName="*" />
+        <SafeControl Assembly="BmscWebSite2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fffcb4f53f0565b7" Namespace="BmscWebSite2.MainContentPresenter" TypeName="*" />
+        <SafeControl Assembly="BmscWebSite2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fffcb4f53f0565b7" Namespace="BmscWebSite2.FinancialInformationPresenter" TypeName="*" />
+        <SafeControl Assembly="BmscWebSite2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fffcb4f53f0565b7" Namespace="BmscWebSite2.SuperMakroCuentaPresenter" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="BmscWebSite2_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

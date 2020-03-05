@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2.SuperMakroCuentaPresenter.SuperMakroCuentaPresenter, BmscWebSite2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fffcb4f53f0565b7" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Presentador Súper Makro Cuenta</property>
+        <property name="Description" type="string">Elemento web presentador de súper makro cuenta.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

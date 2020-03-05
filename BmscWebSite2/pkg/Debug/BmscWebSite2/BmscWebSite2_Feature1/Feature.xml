@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Elementos web presentadores de contenido personalizado (Súper Makro Cuenta, Carrusel de Imágenes, Presentador de Imágenes e Información Financiera).&#xD;&#xA;" Id="8f8175c7-6e08-43ed-8ceb-f6da629b3885" Scope="Site" Title="BMSC Presentadores de Contenido Personalizados">
+  <ElementManifests>
+    <ElementManifest Location="MainContentSlider\Elements.xml" />
+    <ElementFile Location="MainContentSlider\MainContentSlider.webpart" />
+    <ElementManifest Location="MainContentPresenter\Elements.xml" />
+    <ElementFile Location="MainContentPresenter\MainContentPresenter.webpart" />
+    <ElementManifest Location="FinancialInformationPresenter\Elements.xml" />
+    <ElementFile Location="FinancialInformationPresenter\FinancialInformationPresenter.webpart" />
+    <ElementManifest Location="SuperMakroCuentaPresenter\Elements.xml" />
+    <ElementFile Location="SuperMakroCuentaPresenter\SuperMakroCuentaPresenter.webpart" />
+  </ElementManifests>
+</Feature>

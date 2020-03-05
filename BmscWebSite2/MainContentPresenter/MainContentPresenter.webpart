@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2.MainContentPresenter.MainContentPresenter, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Presentador de Imágenes</property>
+        <property name="Description" type="string">Elemento web presentador de imágenes principales.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
