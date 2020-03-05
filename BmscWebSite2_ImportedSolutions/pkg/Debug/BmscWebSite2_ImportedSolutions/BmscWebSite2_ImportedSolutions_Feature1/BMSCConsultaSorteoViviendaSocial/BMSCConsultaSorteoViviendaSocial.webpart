@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2_ImportedSolutions.BMSCConsultaSorteoViviendaSocial.BMSCConsultaSorteoViviendaSocial, BmscWebSite2_ImportedSolutions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45c5403f90d48226" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Consulta Sorteo Vivienda Social</property>
+        <property name="Description" type="string">Elemento web de consulta para sorteo Vienda Social BMSC.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0B209D4-A34D-4BDE-894C-975EE04E8B3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BmscWebSite2_ImportedSolutions</RootNamespace>
+    <AssemblyName>BmscWebSite2_ImportedSolutions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BMSCConsultaCupones\BMSCConsultaCupones.ascx.cs">
+      <DependentUpon>BMSCConsultaCupones.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BMSCConsultaCupones\BMSCConsultaCupones.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BMSCConsultaCupones.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BMSCConsultaPuntos\BMSCConsultaPuntos.ascx.cs">
+      <DependentUpon>BMSCConsultaPuntos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BMSCConsultaPuntos\BMSCConsultaPuntos.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BMSCConsultaPuntos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BMSCConsultaSorteoViviendaSocial\BMSCConsultaSorteoViviendaSocial.ascx.cs">
+      <DependentUpon>BMSCConsultaSorteoViviendaSocial.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BMSCConsultaSorteoViviendaSocial\BMSCConsultaSorteoViviendaSocial.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BMSCConsultaSorteoViviendaSocial.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BMSCLecturaCotizaciones\BMSCLecturaCotizaciones.cs" />
+    <Compile Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaCuponesResultado.aspx.cs">
+      <DependentUpon>ConsultaCuponesResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaCuponesResultado.aspx.designer.cs">
+      <DependentUpon>ConsultaCuponesResultado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaPuntosResultado.aspx.cs">
+      <DependentUpon>ConsultaPuntosResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaPuntosResultado.aspx.designer.cs">
+      <DependentUpon>ConsultaPuntosResultado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaViviendaResultado.aspx.cs">
+      <DependentUpon>ConsultaViviendaResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaViviendaResultado.aspx.designer.cs">
+      <DependentUpon>ConsultaViviendaResultado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BMSCConsultaCupones\BMSCConsultaCupones.webpart" />
+    <None Include="BMSCConsultaCupones\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f8d1457c-8924-4d02-9da7-24129871c820}</SharePointProjectItemId>
+    </None>
+    <None Include="BMSCConsultaPuntos\BMSCConsultaPuntos.webpart" />
+    <None Include="BMSCConsultaPuntos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4440d2c5-e9ee-492e-b5b4-b902c5efadba}</SharePointProjectItemId>
+    </None>
+    <None Include="BMSCConsultaSorteoViviendaSocial\BMSCConsultaSorteoViviendaSocial.webpart" />
+    <None Include="BMSCConsultaSorteoViviendaSocial\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{86c529cb-af7b-408b-89ce-f470484a17cd}</SharePointProjectItemId>
+    </None>
+    <None Include="BMSCLecturaCotizaciones\BMSCLecturaCotizaciones.webpart" />
+    <None Include="BMSCLecturaCotizaciones\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61cb3a06-d099-4b53-9a18-d9ba1352b0e6}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{7527dbaf-6fd4-44a3-973e-1bf2665389d3}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1e539651-349f-4e7e-9f5a-28431e0bf332}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{66bccaf2-28e7-4c12-aaf4-3f1ac1814db5}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BMSCConsultaCupones\BMSCConsultaCupones.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BMSCConsultaCupones.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BMSCConsultaCupones\Elements.xml" />
+    <Content Include="BMSCConsultaPuntos\BMSCConsultaPuntos.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BMSCConsultaPuntos.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BMSCConsultaPuntos\Elements.xml" />
+    <Content Include="BMSCConsultaSorteoViviendaSocial\BMSCConsultaSorteoViviendaSocial.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BMSCConsultaSorteoViviendaSocial.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BMSCConsultaSorteoViviendaSocial\Elements.xml" />
+    <Content Include="BMSCLecturaCotizaciones\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaCuponesResultado.aspx" />
+    <Content Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaPuntosResultado.aspx" />
+    <Content Include="Layouts\BmscWebSite2_ImportedSolutions\ConsultaViviendaResultado.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

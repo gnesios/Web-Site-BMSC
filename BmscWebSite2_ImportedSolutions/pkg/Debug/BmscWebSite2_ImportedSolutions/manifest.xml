@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="66bccaf2-28e7-4c12-aaf4-3f1ac1814db5" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BmscWebSite2_ImportedSolutions.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BmscWebSite2_ImportedSolutions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45c5403f90d48226" Namespace="BmscWebSite2_ImportedSolutions.BMSCLecturaCotizaciones" TypeName="*" />
+        <SafeControl Assembly="BmscWebSite2_ImportedSolutions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45c5403f90d48226" Namespace="BmscWebSite2_ImportedSolutions.BMSCConsultaCupones" TypeName="*" />
+        <SafeControl Assembly="BmscWebSite2_ImportedSolutions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45c5403f90d48226" Namespace="BmscWebSite2_ImportedSolutions.BMSCConsultaPuntos" TypeName="*" />
+        <SafeControl Assembly="BmscWebSite2_ImportedSolutions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45c5403f90d48226" Namespace="BmscWebSite2_ImportedSolutions.BMSCConsultaSorteoViviendaSocial" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\BmscWebSite2_ImportedSolutions\ConsultaCuponesResultado.aspx" />
+    <TemplateFile Location="Layouts\BmscWebSite2_ImportedSolutions\ConsultaPuntosResultado.aspx" />
+    <TemplateFile Location="Layouts\BmscWebSite2_ImportedSolutions\ConsultaViviendaResultado.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BmscWebSite2_ImportedSolutions_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="BMSCLecturaCotizaciones" List="113" Url="_catalogs/wp">
+    <File Path="BMSCLecturaCotizaciones\BMSCLecturaCotizaciones.webpart" Url="BmscWebSite2_ImportedSolutions_BMSCLecturaCotizaciones.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Personalizado" />
+    </File>
+  </Module>
+</Elements>

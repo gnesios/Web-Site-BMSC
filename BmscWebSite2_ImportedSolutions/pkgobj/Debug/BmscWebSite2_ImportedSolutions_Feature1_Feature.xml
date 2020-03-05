@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Elementos web recuperadores de información (Consulta de Cupones, Consulta de Puntos, Consulta Sorteo Vivienda Social y Lectura de Cotizaciones)." Id="54687d39-72bc-4387-9ae5-9f03181fcaad" Scope="Site" Title="BMSC Recuperadores de Información">
+  <ElementManifests>
+    <ElementManifest Location="BMSCLecturaCotizaciones\Elements.xml" />
+    <ElementFile Location="BMSCLecturaCotizaciones\BMSCLecturaCotizaciones.webpart" />
+    <ElementManifest Location="BMSCConsultaCupones\Elements.xml" />
+    <ElementFile Location="BMSCConsultaCupones\BMSCConsultaCupones.webpart" />
+    <ElementManifest Location="BMSCConsultaPuntos\Elements.xml" />
+    <ElementFile Location="BMSCConsultaPuntos\BMSCConsultaPuntos.webpart" />
+    <ElementManifest Location="BMSCConsultaSorteoViviendaSocial\Elements.xml" />
+    <ElementFile Location="BMSCConsultaSorteoViviendaSocial\BMSCConsultaSorteoViviendaSocial.webpart" />
+  </ElementManifests>
+</Feature>

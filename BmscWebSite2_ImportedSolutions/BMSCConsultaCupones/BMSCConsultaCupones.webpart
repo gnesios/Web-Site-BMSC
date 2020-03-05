@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2_ImportedSolutions.BMSCConsultaCupones.BMSCConsultaCupones, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Consulta de Cupones</property>
+        <property name="Description" type="string">Elemento web de consulta de cupones BMSC.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

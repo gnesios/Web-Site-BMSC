@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2_ImportedSolutions.BMSCLecturaCotizaciones.BMSCLecturaCotizaciones, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Presentador de Cotizaciones</property>
+        <property name="Description" type="string">Presenta cotización de Dolar, UFV, MVC, TRE leido desde un archivo de texto.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
