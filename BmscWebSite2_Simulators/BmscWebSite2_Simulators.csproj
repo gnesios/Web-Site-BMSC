@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC4D2407-73FD-4394-9BE4-71156BED96DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BmscWebSite2_Simulators</RootNamespace>
+    <AssemblyName>BmscWebSite2_Simulators</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreditSimulator\CreditSimulator.ascx.cs">
+      <DependentUpon>CreditSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CreditSimulator\CreditSimulator.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreditSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DPFSimulator\DPFSimulator.ascx.cs">
+      <DependentUpon>DPFSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DPFSimulator\DPFSimulator.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DPFSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="IncrementalDPFSimulator\IncrementalDPFSimulator.ascx.cs">
+      <DependentUpon>IncrementalDPFSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="IncrementalDPFSimulator\IncrementalDPFSimulator.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IncrementalDPFSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_Simulators\CreditoResultado.aspx.cs">
+      <DependentUpon>CreditoResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_Simulators\CreditoResultado.aspx.designer.cs">
+      <DependentUpon>CreditoResultado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_Simulators\DPFIncrementalResultado.aspx.cs">
+      <DependentUpon>DPFIncrementalResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_Simulators\DPFIncrementalResultado.aspx.designer.cs">
+      <DependentUpon>DPFIncrementalResultado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_Simulators\DPFResultado.aspx.cs">
+      <DependentUpon>DPFResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\BmscWebSite2_Simulators\DPFResultado.aspx.designer.cs">
+      <DependentUpon>DPFResultado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassiveSimulator\PassiveSimulator.ascx.cs">
+      <DependentUpon>PassiveSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PassiveSimulator\PassiveSimulator.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PassiveSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimuladoresService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CreditSimulator\CreditSimulator.webpart" />
+    <None Include="CreditSimulator\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68f85a38-38e5-4d50-b1b3-30a89f5ef6ca}</SharePointProjectItemId>
+    </None>
+    <None Include="DPFSimulator\DPFSimulator.webpart" />
+    <None Include="DPFSimulator\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d06d13b-0cfa-4a6a-96eb-cf97014f69ae}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{f4fc0152-9dbb-43a3-bfd9-c69f0b655b78}</FeatureId>
+    </None>
+    <None Include="IncrementalDPFSimulator\IncrementalDPFSimulator.webpart" />
+    <None Include="IncrementalDPFSimulator\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c050b524-6647-4a30-a983-7dfebf53639a}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b5824f68-9ff9-43f0-9ad1-4426d3cd0996}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{050ba3ea-09da-4916-9a2b-fba916fe74cc}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="PassiveSimulator\PassiveSimulator.webpart" />
+    <None Include="PassiveSimulator\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a720be48-c297-45c2-829b-9364a4aadd61}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CreditSimulator\CreditSimulator.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>CreditSimulator.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="CreditSimulator\Elements.xml" />
+    <Content Include="DPFSimulator\DPFSimulator.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>DPFSimulator.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="DPFSimulator\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="IncrementalDPFSimulator\Elements.xml" />
+    <Content Include="IncrementalDPFSimulator\IncrementalDPFSimulator.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>IncrementalDPFSimulator.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Layouts\BmscWebSite2_Simulators\CreditoResultado.aspx" />
+    <Content Include="Layouts\BmscWebSite2_Simulators\DPFIncrementalResultado.aspx" />
+    <Content Include="Layouts\BmscWebSite2_Simulators\DPFResultado.aspx" />
+    <Content Include="PassiveSimulator\Elements.xml" />
+    <Content Include="PassiveSimulator\PassiveSimulator.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>PassiveSimulator.ascx.g.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

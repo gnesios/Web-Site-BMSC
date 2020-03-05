@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BmscWebSite2_Simulators.IncrementalDPFSimulator.IncrementalDPFSimulator, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Simulador de Cuenta Activa, DPF Incremental</property>
+        <property name="Description" type="string">Elemento web simulador de cuenta activa, dpf incremental.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
